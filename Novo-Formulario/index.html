@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img//undraw_shopping_re_3wst.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastre-se</h1>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label class="lab" for="tim">Dia:</label>
+                            <select id="hg">
+                            <option value="primeiro">28/02</option>
+                            <option value="segundo">02/03</option>
+                            <option value="terceiro">07/03</option>
+                            <option value="quarto">09/03</option>
+                            </select>
+                    </div>
+
+
+                    <div id="textos">
+                    <p> Atendimento/Manutenção às Ter. E Quin. - das 13:30hr às 17:30hr. <br> Observações: as manutenções serão executadas por um aluno da turma que será seu técnico, com supervisão do docente em sala. <strong> que isso não garante que o equipamento será totalmente consertado</strong>, todo equipamento ligado terá um diagnostico prévio com o técnico que irá receber independente da descrição dada pelo cliente. <br> Sistema operacional e programas não terão garantia, teste na saída, o serviço só será executado com a permissão do cliente por uma das formas de contato, <strong> não nos responsabilizamos por equipamento deixado após o horário da aula.</strong> <br> <strong> Horário para deixar o equipamento às 13:45hr até 14:30hr</strong> (15min. de tolerância) e retirar as 15hrs - serviços não finalizados serão terminados na próxima data. <br></p>
+                    </div>
+
+                    <div id="termos">
+                        <input type="radio" name="termo" id="termo" required><label for="termo">Aceito os termos acima</label>
+                    </div>
+                </div>
+
+                <div class="servico-inputs">
+                    <div class="servico-title">
+                        <h6>Serviços</h6>
+                    </div>
+
+                    <div class="servico-group">
+                        <div class="servico-input">
+                            <input id="limpeza" type="checkbox" name="servico">
+                            <label for="limpeza">Limpeza</label>
+                        </div>
+
+                        <div class="servico-input">
+                            <input id="manutencao" type="checkbox" name="servico">
+                            <label for="manutecao">Manutenção</label>
+                        </div>
+
+                        <div class="servico-input">
+                            <input id="formatacao" type="checkbox" name="servico">
+                            <label for="formatacao">Formatação</label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a> </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

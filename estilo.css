@@ -1,0 +1,54 @@
+:root{
+    line-height: 1rem;
+}
+
+body{
+    background: rgb(238, 237, 237);
+    margin: 0;
+    padding:0;
+   
+}
+.cor{
+    color: #000;
+}
+h1{
+    line-height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.carousel-inner{
+    
+    padding: 2.3rem;
+    text-align: center;
+}
+h2{
+    font-size: 1.5rem;      
+}
+.servicos{
+    font-size: 1.5rem;
+}
+
+.carousel-caption{
+ background-color: rgb(241, 241, 241);
+ padding: 2px;
+ border-radius: 25px;
+}
+h3{
+    font-size: 1.3rem;
+}
+.conteudo a {
+    text-decoration: none;
+    color: #5c23cf;
+}
+
+.primtexto{
+    display: none;
+}
+
+@media (max-width: 575.98px) {
+    .primtexto{
+        display: block;
+    }
+}
